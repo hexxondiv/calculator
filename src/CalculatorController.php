@@ -13,9 +13,8 @@ class CalculatorController extends Controller
             return view('calculator::add',compact('result'));
         }
         catch(\InvalidArgumentException $ex) {
-            echo $result;
+            return  $result;
         }
-        return true;
     }
 
     public function subtract($a,$b){

@@ -1,0 +1,14 @@
+{
+    "name": "jaybits/calculator",
+    "description": "Simple calculation package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James",
+            "email": "james@winexviv.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -3,7 +3,6 @@
 namespace Jaybits\Calculator;
 
 use App\Http\Controllers\Controller;
-use Brick\Math\Internal\Calculator;
 use Illuminate\Http\Request;
 
 class CalculatorController extends Controller

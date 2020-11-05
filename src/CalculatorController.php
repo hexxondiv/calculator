@@ -9,7 +9,13 @@ class CalculatorController extends Controller
 {
     public function add($a,$b){
         $result= $a + $b;
-        return view('calculator::add',compact('result'));
+        try{
+            return view('calculator::add',compact('result'));
+        }
+        catch(\InvalidArgumentException $ex) {
+            echo $result;
+        }
+        return true;
     }
 
     public function subtract($a,$b){
